@@ -1,32 +1,28 @@
 //esquema de colores
-$white:#fff;
-$Platinum:#E6E7E7;
-$Lightgray:#D1D1D1;
+$white: #FFF;
+$platinum: #E8EBE4;
+$gray: #BEC1BB;
 
-$Fuzzywuzzy:#E56353;
-$Ruddypink:#D76C69;
-$Spanishpink:#ECBCBA;
+//segundo esquema de colores
+$blue-bell: #A491D2;
+$soap: #CDC3E6;
+$pale-lavander: #D4DCFF;
 
-$Eerieblack:#121619;
-$Risinblack:#222323;
-$Nickel:#6C6E70;
+//tercer esquema
+$dark-jungle: #1B1F21;
+$outer-space: #444749;
+$old-silver: #828485;
 
-//Tipografía
-$Roboto: 'Roboto', sans-serif;
-$Playfair: 'Playfair Display', italic;
+//Fuentes
+$roboto: 'Roboto', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
 
-//Font sizes
-$light: 300;
+// Font Weight
 $regular: 400;
-$blackitalic: 900;
+$bold: 700;
 
-//Tamaño de fuentes
-$xx-large: 70px;
-$x-large: 30px;
-$large: 18px;
+// Font Sizes
+$large: 45px;
 $medium: 16px;
-$small: 12px;
-
-//Buttons size
-$medium-button: 200px;
-$small-button: 100px;
+$small: 14px;
+$x-small: 10px;

@@ -1,17 +1,59 @@
-.navbar_logo {
+.fa-logo
+{
+    
+    margin: 5px;
+}
 
- @include logo(160px, 60px); 
+.navbar-collapse .navbar-toggler .nav-imagenes
+{
+    text-align: right;
+}
+
+.navbar
+{
+    justify-content: flex-end;
+}
+
+.navbar>a
+{
+    justify-content: flex-start;
+}
+
+.contenedor {
+
+    display: flex;
+border: 2px solid black;
+text-align: center;
+font-size: 3rem;
+justify-content: space-between;
+align-items: center;
+
+
 
 }
 
-.text-colores:visited{
-  color: $white !important;
+.caja1 {
+width: 35%;
+
+
+
+
 }
 
-.text-colores:hover {
-  color: $Platinum !important;
+.caja2 {
+    width: 45%;
+
+
+    
+    
+    }
+
+.form-inline2 {
+    float: right;
+    margin-right: 10%;
 }
 
-.text-colores:active {
-  color: $Lightgray !important;
-} 
+.navbar-brand {
+    margin-left: 10%;
+    margin-right: 0px;
+}
