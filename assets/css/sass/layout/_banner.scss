@@ -1,0 +1,51 @@
+
+.texto-header{
+    color: $white;
+    font-weight: $blackitalic;
+    padding-top: 10%; 
+}
+
+.main_container{
+    background: url('../../img/post-image.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+
+
+
+@media (max-width: 645px) {
+    
+
+    .main_container_title{
+        text-align: center;
+        padding-top: 0px;
+        padding-top: 5%;
+    
+    }
+
+    .main_container{
+    background: url('../../img/post-image.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+}
+    
+  }
+
+
+  i {
+    color:$Risinblack;
+    opacity: 0.7;;
+ 
+  &:hover {
+
+      color:$Nickel;
+  }
+ }
+
+ .texto-header h1 {
+     text-shadow: -2px 7px 7px #b6bbb654;
+ }

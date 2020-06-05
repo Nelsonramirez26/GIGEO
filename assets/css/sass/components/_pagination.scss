@@ -1,0 +1,20 @@
+.paginacion{
+    margin: 0;
+    padding: 30px;
+    background-color: $Platinum;
+    }
+    
+    .pagination{
+        margin: 0rem;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    
+    .navegador{
+        background-color: $Platinum;
+    }
+
+    .page-item.active .page-link {
+    background-color: #131313;
+    border-color: #141515;
+}

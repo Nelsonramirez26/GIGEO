@@ -1,0 +1,21 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/_navbar';
+@import 'components/pagination';
+
+
+@import 'layout/navigation';
+@import 'layout/banner';
+@import 'layout/footer';
+@import 'layout/section-principal';
+@import 'layout/section-contacto';
+
+@import 'pages/home';
+
+@import 'themes/themes1';

@@ -1,0 +1,17 @@
+.navbar_logo {
+
+ @include logo(160px, 60px); 
+
+}
+
+.text-colores:visited{
+  color: $white !important;
+}
+
+.text-colores:hover {
+  color: $Platinum !important;
+}
+
+.text-colores:active {
+  color: $Lightgray !important;
+} 

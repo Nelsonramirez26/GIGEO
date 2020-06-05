@@ -1,0 +1,28 @@
+@mixin logo($width, $height) {
+
+    width: $width;
+    height: $height;
+
+}
+
+@mixin texto($tamano) {
+
+    font-size: $tamano;
+
+
+}
+
+@mixin foto($tamano, $pb) {
+
+    border-radius: 50%;
+    width:$tamano;
+    padding-bottom: $pb;
+    padding-top: 6px;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+.contenedor_foto_contacto {
+
+    text-align: right;
+    padding-right: 30px
+   
+    
+}
+
+.contenedor_datos_contacto{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.imagen-contacto{
+
+@include foto(150px, 30px); 
+
+}
+
+.texto_contacto {
+    font-style: sans-serif;
+    padding-top: 40px;
+    font-family: $Roboto;
+    text-align: justify;
+    padding-right: 157px;
+}
+
+.texto_contacto p{
+    
+    margin-top: 0px !important;
+}
+
+
+
+.letra_rrss{
+    font-family: $Roboto;
+    margin-top: 0px !important;
+}
+
+@media (max-width: 797px) {
+    
+    .contenedor_foto_contacto {
+
+        text-align: center;
+        
+    }
+    
+  }
+
+  @media (max-width: 767px) {
+    
+        .texto_contacto {
+        display: none;
+    }
+
+    .nombre_contacto{
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .letra_rrss{
+        text-align: center;
+    }
+
+    .contenedor_foto_contacto {
+    
+    padding-right: 0px;
+       
+    }
+
+    .imagen-contacto{
+
+    @include foto(100px, 10px); 
+
+    }
+
+
+    
+  }
+
