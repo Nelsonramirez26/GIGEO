@@ -22,11 +22,19 @@ p {
 
 .mensaje {
   margin-left: 700px;
-  background-color: aquamarine;
+  background-color: #b1f0fd;
+  font-size: 30px;
+  color: white;
 }
 
 .seguir {
-  background-color: coral;
+  background-color: #ff1717b0;
+  font-size: 30px;
+  color: white;
+}
+
+button {
+  border: 0px;
 }
 
 .fa-logo {
@@ -52,6 +60,7 @@ p {
   font-size: 3rem;
   justify-content: space-between;
   align-items: center;
+  border: 0px;
 }
 
 .caja1 {
@@ -72,6 +81,19 @@ p {
   margin-right: 0px;
 }
 
+@media (max-width: 700px) {
+  .caja2 {
+    display: none;
+  }
+
+  .caja1 {
+    width: 100%;
+  }
+
+  .nav-imagenes {
+    margin-left: 0px;
+  }
+}
 .img_banner {
   background-image: url("../../img/image-banner.png");
   background-position: center;
@@ -80,13 +102,13 @@ p {
   height: 250px;
 }
 
-@media (max-width: 645px) {
+@media (max-width: 700px) {
   .img_banner {
     background-image: url("../../img/image-banner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 100px;
   }
 }
 .user-info {
@@ -105,18 +127,82 @@ p {
 }
 
 .item {
-  margin-top: 40px;
-  margin-left: 5px;
+  margin-top: 0px;
+  margin-left: 10px;
 }
 
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.parte1 {
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+
+.parte2 {
+  justify-content: flex-end;
+  margin-right: 10%;
+  align-items: center;
+}
+
+.inicio {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.nombre {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+}
+
+.seguidores {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .container1 {
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 20px;
+    font-family: "Times New Roman", Times, serif;
+    place-content: center;
+  }
+
+  .parte1 {
+    margin-left: 0px;
+  }
+}
 .container {
+  max-width: 1800px;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 20px;
   font-family: "Times New Roman", Times, serif;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
+  .container {
+    max-width: 1800px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .titulo_imagenes {
+    text-align-last: center;
+  }
+}
+.titulo_imagenes {
+  margin-left: 0%;
+}
+
+@media (max-width: 700px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -124,7 +210,7 @@ p {
     width: 99%;
   }
   .container img {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   button {
@@ -137,7 +223,7 @@ p {
   }
 
   .nav-imagenes {
-    margin-left: 60px;
+    margin-left: 0px;
   }
 
   .inicio {
@@ -145,7 +231,7 @@ p {
   }
 
   h1, h2, h3, h4, h5 {
-    font-size: medium;
+    font-size: 2.5rem;
   }
 }
 

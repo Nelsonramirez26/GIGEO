@@ -27,6 +27,7 @@ text-align: center;
 font-size: 3rem;
 justify-content: space-between;
 align-items: center;
+border: 0px;
 
 
 
@@ -57,3 +58,23 @@ width: 35%;
     margin-left: 10%;
     margin-right: 0px;
 }
+
+@media (max-width: 700px) {
+    
+
+    .caja2 {
+        display: none;
+    }
+
+    .caja1 {
+        width: 100%;
+        
+         
+        
+        }
+
+        .nav-imagenes {
+            margin-left: 0px;
+        }
+
+  }

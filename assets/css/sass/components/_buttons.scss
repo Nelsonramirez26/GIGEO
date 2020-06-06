@@ -1,10 +1,18 @@
 .mensaje
 {
     margin-left: 700px;
-    background-color: aquamarine;
+    background-color: $boton-mensaje;
+    font-size: 30px;
+    color: white;
 }
 
 .seguir{
-    background-color: coral;
+    background-color:$boton-seguir;
+    font-size: 30px;
+    color: white;
+}
+
+button {
+    border: 0px;
 }
 
