@@ -12,6 +12,7 @@
 .navbar
 {
     justify-content: flex-end;
+    background-color: white;
 }
 
 .navbar>a
@@ -37,8 +38,6 @@ border: 0px;
 width: 35%;
 
 
-
-
 }
 
 .caja2 {
@@ -55,7 +54,7 @@ width: 35%;
 }
 
 .navbar-brand {
-    margin-left: 10%;
+    margin-left: 0%;
     margin-right: 0px;
 }
 
@@ -78,3 +77,4 @@ width: 35%;
         }
 
   }
+
